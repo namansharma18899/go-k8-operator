@@ -1,0 +1,9 @@
+apiVersion: crd/v1
+kind: PodTracker
+metadata:
+  labels:
+    app.kubernetes.io/name: go-k8-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: podtracker-sample
+spec:
+  # TODO(user): Add fields here
